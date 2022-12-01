@@ -6,7 +6,8 @@ pipeline {
         stage('DEMO') {
           steps {
             sh '''echo \'Hello\'
-sleep 10'''
+'''
+            sh 'sleep 10'
           }
         }
 
